@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  held_on: 2012-07-27
+  venue: MyString
+
+two:
+  held_on: 2012-07-27
+  venue: MyString

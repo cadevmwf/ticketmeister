@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Band:</b>
+  <%= @gig.band_id %>
+</p>
+
+<p>
+  <b>Concert:</b>
+  <%= @gig.concert_id %>
+</p>
+
+<p>
+  <b>Compensation:</b>
+  <%= @gig.compensation %>
+</p>
+
+
+<%= link_to 'Edit', edit_gig_path(@gig) %> |
+<%= link_to 'Back', gigs_path %>

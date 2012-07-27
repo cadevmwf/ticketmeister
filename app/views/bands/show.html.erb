@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @band.name %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @band.category %>
+</p>
+
+<ul>
+<% @band.concerts.each do |concert| %>
+  <li>Playing at <%=  concert.venue %> on <%= concert.held_on %></li>
+<% end %>
+</ul>
+
+
+<%= link_to 'Edit', edit_band_path(@band) %> |
+<%= link_to 'Back', bands_path %>

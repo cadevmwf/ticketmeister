@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  band_id: 1
+  concert_id: 1
+  compensation: 1
+
+two:
+  band_id: 1
+  concert_id: 1
+  compensation: 1
